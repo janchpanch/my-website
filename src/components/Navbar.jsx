@@ -1,28 +1,27 @@
 import React from "react";
+import "../App.css";
 
-import { Link } from "react-router-dom";
+import navLinks from "../config/navLinks";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <ul>
-        <Link to="/">
-          <li>Home</li>
-        </Link>
-        <Link to="/projects">
-          <li>Projects</li>
-        </Link>
-        <Link to="/changelog">
-          <li>Changelog</li>
-        </Link>
-        <Link to="/about">
-          <li>About</li>
-        </Link>
-        <Link to="/contact">
-          <li>Contact</li>
-        </Link>
+    <nav className="inline-flex bg-purple-400 px-6 py-3 mx-auto">
+      <ul className="flex gap-6 text-white font-medium">
+        {navLinks.map(({ name, path }) => (
+          <li key={path}>
+            <NavLink
+              to={path}
+              className={({ isActive }) =>
+                isActive ? "text-blue-700 font-bold" : ""
+              }
+            >
+              {name}
+            </NavLink>
+          </li>
+        ))}
       </ul>
-    </div>
+    </nav>
   );
 };
 

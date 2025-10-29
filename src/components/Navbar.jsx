@@ -1,12 +1,11 @@
-import React from "react";
 import "../App.css";
 
 import navLinks from "../config/navLinks";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="inline-flex bg-purple-400 px-6 py-3 mx-auto">
+    <nav className="inline-flex bg-purple-400 px-6 py-3 mx-auto size-full">
       <ul className="flex gap-6 text-white font-medium">
         {navLinks.map(({ name, path }) => (
           <li key={path}>

@@ -1,13 +1,15 @@
-import React from 'react'
+import Hero from "../components/Hero";
 
 const Home = () => {
   return (
-    <div>
-      <h3>TODO</h3>
+    <div className="flex flex-col">
+      <Hero />
+      <h3 className="font-bold">TODO</h3>
       <ol>
-        <li>Planning basic layouts</li>
-        <li>Rudimentary styling beyond plain HTML</li>
-        <li>Changelog to document progress</li>
+        <li>Create specialized per page</li>
+        <li>Explore GitHub REST API usage to pull commits to display for changelog</li>
+        
+        
       </ol>
     </div>
   )

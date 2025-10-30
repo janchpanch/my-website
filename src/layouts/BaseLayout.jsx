@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const BaseLayout = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
+      {/* <Header /> */}
       <Navbar />
       <div className="flex-1 w-full max-w-6x1 px-6 py-8">
         <Outlet />

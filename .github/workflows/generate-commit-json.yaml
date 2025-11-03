@@ -1,4 +1,13 @@
-- name: Generate commit JSON
-  run: |
-    git log -n 10 --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},' \
-      | sed '$ s/,$//' | jq -s '.' > public/commits.json
+name: Update Commit Data
+on:
+  schedule:
+    - cron: "0 0 * * *"  # every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  fetch_commits:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: Generate commit JSON
+         run: git log -n 10 --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},' | sed '$ s/,$//' | jq -s '.' > public/commits.json

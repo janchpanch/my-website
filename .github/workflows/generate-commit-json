@@ -1,0 +1,4 @@
+- name: Generate commit JSON
+  run: |
+    git log -n 10 --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},' \
+      | sed '$ s/,$//' | jq -s '.' > public/commits.json

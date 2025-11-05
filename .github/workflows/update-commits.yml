@@ -15,10 +15,11 @@ jobs:
           fetch-depth: 20  # grab at least the latest 20 commits
 
       - name: Generate commits.json
-        run: |  
+        run: |
+          mkdir -p public
           git log -n 20 --invert-grep --grep="Update commit data" \
           --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},' \
-          > commits.json
+          > public/commits.json
           
       - name: Commit and push updated data
         run: |

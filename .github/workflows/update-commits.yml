@@ -15,18 +15,15 @@ jobs:
           fetch-depth: 20  # grab at least the latest 20 commits
 
       - name: Generate commits.json
-        run: |
-          mkdir -p public
-          
-          git log -n 20 --author="^((?!github-actions\[bot\]).)*$" \
-          --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},' \
+        run: |  
+          git log -n 20 --invert-grep --grep="Update commit data" \
+          --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},'
           > commits.json
           
       - name: Commit and push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          cd public
-          git add commits.json
+          git add /public/commits.json
           git commit -m "Update commit data"
           git push

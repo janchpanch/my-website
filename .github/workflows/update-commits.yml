@@ -17,7 +17,7 @@ jobs:
       - name: Generate commits.json
         run: |  
           git log -n 20 --invert-grep --grep="Update commit data" \
-          --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},'
+          --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},' \
           > commits.json
           
       - name: Commit and push updated data

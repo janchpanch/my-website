@@ -1,0 +1,31 @@
+name: Update Commit Data
+on:
+  schedule:
+    - cron: "0 0 * * *"  # every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  generate_commit_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 20  # grab at least the latest 20 commits
+
+      - name: Generate commits.json
+        run: |
+          mkdir -p public
+          git log -n 20 --author="^((?!github-actions\[bot\]).)*$" \
+          --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},'
+
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/commits.json
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Update commit data"
+          git push

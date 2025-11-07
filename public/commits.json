@@ -15,4 +15,3 @@
 {"hash":"cf69d821f3d868516851c5ccff12553e5ab973f5","author":"janchpanch","date":"Wed Nov 5 14:43:55 2025 -0600","message":"Update readme"},
 {"hash":"0995bd84259928ac3f3be706a129ed333a15c19f","author":"janchpanch","date":"Thu Oct 30 15:16:24 2025 -0500","message":"Mobile functionality added to navbar. Header removed."},
 {"hash":"2af544f735d9a712692d909d2d716ccacc03fdb4","author":"janchpanch","date":"Tue Oct 28 22:22:46 2025 -0500","message":"Component experimenting started in Changlog.jsx. Miscellaneous styling changes + revised TODO. Researching how to pull repo commit data to display in Changelog instead of manual entries."},
-{"hash":"30d7a1185c203311038ca086fa96aeb47319b5de","author":"janchpanch","date":"Mon Oct 27 17:22:28 2025 -0500","message":"TailwindCSS functional. Rudimentary (scuffed) styling added. Basic tailwindcss practices learned"},

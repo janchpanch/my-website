@@ -10,5 +10,3 @@
 {"hash":"a176b73d652ae33a169352a4eed650a7c9b255e8","author":"Joseph Pancho","date":"Wed Nov 5 14:56:59 2025 -0600","message":"Editing update-commits.yml until it works"},
 {"hash":"d1e4f5e2e425458e33907b6986b5aaab89de4047","author":"Joseph Pancho","date":"Wed Nov 5 14:52:52 2025 -0600","message":"Update update-commits.yml"},
 {"hash":"a2fdd6ecadda128adfb14d7e73f8b40dc207eaf2","author":"janchpanch","date":"Wed Nov 5 14:48:57 2025 -0600","message":"Merge remote-tracking branch 'refs/remotes/origin/main'"},
-{"hash":"550ae9a8ba8ee6b823e5acf1f054919747472201","author":"janchpanch","date":"Wed Nov 5 14:48:15 2025 -0600","message":"Add commits.json manually"},
-{"hash":"af49e61e5991d1e9947d22e64e3d6bb39d88a805","author":"Joseph Pancho","date":"Wed Nov 5 14:47:10 2025 -0600","message":"Add workflow to update commit data daily"},

@@ -1,7 +1,1 @@
-{"hash":"9cd8bf12bf8352e0dff28fde9500798568d3f650","author":"Joseph Pancho","date":"Sat Nov 15 13:06:43 2025 -0600","message":"Remove 20 entry limit from git log output"},
-{"hash":"4c4f242e46b45eb8f0968fcd5fccc023f35832a8","author":"Joseph Pancho","date":"Wed Nov 5 15:18:44 2025 -0600","message":"Change path for commits.json in workflow"},
-{"hash":"0410cf5db71999f7f98d1a33d77836aa314c86e8","author":"Joseph Pancho","date":"Wed Nov 5 15:18:02 2025 -0600","message":"Change commits.json output location to public directory"},
-{"hash":"b3c6089c44ca55a167e4e6f14447d2ea395dd8fb","author":"Joseph Pancho","date":"Wed Nov 5 15:15:20 2025 -0600","message":"Fix formatting in generate commits.json step"},
-{"hash":"47027b1b6d2e62048431f203cf5beaa64b93eae9","author":"Joseph Pancho","date":"Wed Nov 5 15:10:45 2025 -0600","message":"Change path for commits.json in workflow"},
-{"hash":"a62ecc6e0b325b17be72dc763f0b52720adbac60","author":"Joseph Pancho","date":"Wed Nov 5 15:09:44 2025 -0600","message":"Fix path for adding commits.json in workflow"},
-{"hash":"7d776e7daea3cf139b44a50004a0eb89983a664d","author":"Joseph Pancho","date":"Wed Nov 5 15:09:10 2025 -0600","message":"Update GitHub Actions workflow for commit generation"},
+{"hash":"039d7fb3647f50f006a0c655c000a91f893d7413","author":"Joseph Pancho","date":"Sat Nov 15 13:09:10 2025 -0600","message":"Correctly remove fetch-depth limit for now"},

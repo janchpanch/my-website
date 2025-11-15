@@ -17,7 +17,7 @@ jobs:
       - name: Generate commits.json
         run: |
           mkdir -p public
-          git log -n 20 --invert-grep --grep="Update commit data" \
+          git log --invert-grep --grep="Update commit data" \
           --pretty=format:'{"hash":"%H","author":"%an","date":"%ad","message":"%s"},' \
           > public/commits.json
           

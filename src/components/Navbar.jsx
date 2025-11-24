@@ -5,7 +5,7 @@ import navLinks from "../config/navLinks";
 // import Bars3 from "../assets/bars-3";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  // const [isOpen, setIsOpen] = useState(true);
 
   return (
     <nav>
@@ -13,9 +13,9 @@ const Navbar = () => {
         <h1>Joe's Archive</h1>
 
         {/* Hamburger button */}
-        <button onClick={() => setIsOpen(!isOpen)}>
-          {/* <Bars3 /> */}
-        </button>
+        {/* <button onClick={() => setIsOpen(!isOpen)}>
+          { <Bars3 /> }
+        </button> */}
 
         {/* Desktop Links */}
         <ul>

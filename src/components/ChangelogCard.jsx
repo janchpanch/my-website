@@ -1,8 +1,12 @@
 const ChangelogCard = () => {
   return (
-    <div>
+    <article>
+      <header>
+        <h3>Update Title</h3>
+        <small>Date placeholder</small>
+      </header>
       <p>Card Component Test</p>
-    </div>
+    </article>
   )
 }
 

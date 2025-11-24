@@ -1,8 +1,11 @@
 const Hero = () => {
   return (
-    <div>
-        Hero Placeholder 
-    </div>
+    <section>
+      <hgroup>
+        <h1>Welcome to Joe's Archive</h1>
+        <p>A collection of my projects and development journey</p>
+      </hgroup>
+    </section>
   )
 }
 

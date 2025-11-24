@@ -1,5 +1,12 @@
 const About = () => {
-  return <div>About Placeholder</div>;
+  return (
+    <article>
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>Learn more about me and my work...</p>
+    </article>
+  );
 };
 
 export default About;

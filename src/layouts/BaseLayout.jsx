@@ -6,14 +6,13 @@ import Footer from "../components/Footer";
 
 const BaseLayout = () => {
   return (
-    <main>
-      {/* <Header /> */}
+    <>
       <Navbar />
-      <div>
+      <main class="container">
         <Outlet />
-      </div>
+      </main>
       <Footer />
-    </main>
+    </>
   );
 };
 

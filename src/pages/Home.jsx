@@ -2,9 +2,9 @@ import Hero from "../components/Hero";
 
 const Home = () => {
   return (
-    <div className="flex flex-col">
+    <div>
       <Hero />
-      <h3 className="font-bold">TODO</h3>
+      <h3>TODO</h3>
       <ol>
         <li>Explore tools/platforms that automate styling full stop</li>
         <li>Rebuild this website such that focus can be on backend development</li>

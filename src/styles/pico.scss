@@ -1,0 +1,17 @@
+/* src/styles/pico.scss */
+
+/* Override CSS variables used by Pico (example). Set variables before
+    importing the compiled CSS so Pico uses them at runtime. */
+// :root {
+//   --accent: #7c3aed;      /* purple-ish brand/accent color */
+//   --background: #f8fafc;  /* page background */
+//   --text: #0f172a;
+// }
+
+/* Import Pico's compiled CSS. We import the CSS build (not the SCSS module)
+    to avoid Sass @use module loading and potential circular imports. */
+// @import "@picocss/pico/css/pico.min.css";
+
+@use "@picocss/pico/scss/pico" with (
+    $theme-color: "purple"
+)

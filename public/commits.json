@@ -1,3 +1,6 @@
+{"hash":"b14b5d187f40275c5e75fc74da74fc807778e5a5","author":"janchpanch","date":"Mon Nov 24 17:27:02 2025 -0600","message":"Minimal semantic styling added"},
+{"hash":"4656fa8de43d96635fc44d59bfcd10e964ddc324","author":"janchpanch","date":"Mon Nov 24 15:54:37 2025 -0600","message":"Remove navbar button for now"},
+{"hash":"0f09eb02c415ac0e245c656d8a3d9665730b5608","author":"janchpanch","date":"Mon Nov 24 15:13:59 2025 -0600","message":"Entire site retooled with picocss to drastically simplify styling"},
 {"hash":"a91e3130dec89ac3f9bf39ecd2517766766f8423","author":"janchpanch","date":"Tue Nov 18 10:42:16 2025 -0600","message":"Update Home.jsx with revised plan"},
 {"hash":"45d990e6faebdec2f07aaf51c471343667a8198c","author":"Joseph Pancho","date":"Sat Nov 15 13:11:41 2025 -0600","message":"Update fetch depth in update-commits.yml"},
 {"hash":"039d7fb3647f50f006a0c655c000a91f893d7413","author":"Joseph Pancho","date":"Sat Nov 15 13:09:10 2025 -0600","message":"Correctly remove fetch-depth limit for now"},
@@ -29,5 +32,3 @@
 {"hash":"9eb31a1811c7a04b06f8ff5154423481fa18689e","author":"janchpanch","date":"Sun Sep 28 19:21:31 2025 -0500","message":"Clean slate"},
 {"hash":"075351434f4abc80ca5a2175f39c6d9b0e7036d3","author":"Joseph Pancho","date":"Mon Jan 13 11:11:12 2025 -0600","message":"package-lock update again"},
 {"hash":"400cf33740e1e873d5d32eab682934984fbde075","author":"Joseph Pancho","date":"Mon Jan 13 11:05:48 2025 -0600","message":"package lock updated"},
-{"hash":"96e4ebee78913af63140ef410611a58f445e4bc4","author":"Joseph Pancho","date":"Mon Jan 13 10:55:12 2025 -0600","message":"next.js static import"},
-{"hash":"8f45b3c3de8cfa51066dacd484813bb8a86a6fb0","author":"Joseph Pancho","date":"Mon Jan 13 10:27:34 2025 -0600","message":"Initial commit"},

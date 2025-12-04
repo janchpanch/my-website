@@ -4,7 +4,7 @@ const About = () => {
       <header>
         <h1>About</h1>
       </header>
-      <p>Learn more about me and my work...</p>
+      <p>Placeholder</p>
     </article>
   );
 };

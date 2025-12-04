@@ -4,7 +4,7 @@ const Contact = () => {
       <header>
         <h1>Contact</h1>
       </header>
-      <p>Get in touch with me...</p>
+      <p>Under construction! Otherwise, shoot me an email at hi@josephpancho.com !</p>
     </article>
   )
 }

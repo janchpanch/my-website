@@ -3,7 +3,7 @@ const Hero = () => {
     <section>
       <hgroup>
         <h1>Welcome to Joe's Archive</h1>
-        <p>A collection of my projects and development journey</p>
+        <p>Learning web development some way, some how</p>
       </hgroup>
     </section>
   )

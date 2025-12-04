@@ -4,7 +4,7 @@ const Projects = () => {
       <header>
         <h1>Projects</h1>
       </header>
-      <p>Coming soon...</p>
+      <p>Placeholder</p>
     </article>
   )
 }

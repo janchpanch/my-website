@@ -7,8 +7,8 @@ const Home = () => {
       <section>
         <h2>TODO</h2>
         <ol>
-          <li>Explore tools/platforms that automate styling full stop</li>
-          <li>Rebuild this website such that focus can be on backend development</li>
+          <li>Cotninue styling streamlining with picocss + React components</li>
+          <li>Start exploring ways to practice backend development with this site as the foundation</li>
         </ol>
       </section>
     </>
